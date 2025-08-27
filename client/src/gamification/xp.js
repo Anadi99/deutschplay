@@ -1,3 +1,1 @@
-export const calculateXP = (correctGuess, sentenceBonus) => {
-  return correctGuess*10 + sentenceBonus*5;
-}
+export const calculateXP = (correctGuess, sentenceBonus) => correctGuess*10 + sentenceBonus*5;
